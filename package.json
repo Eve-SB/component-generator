@@ -1,11 +1,11 @@
 {
-  "name": "scaffold-tool",
+  "name": "scaffolding-tool",
   "version": "1.0.0",
   "description": "A tool for scaffolding components",
-  "main": "./__app-utilities/make-component.js",
+  "main": "./__scaffolding-tool/make-component.js",
   "scripts": {
     "test": "test",
-    "make:component": "node ./__app-utilities/make-component.js"
+    "make:component": "node ./__scaffolding-tool/make-component.js"
   },
   "author": "Eve Blakcori",
   "license": "ISC"
