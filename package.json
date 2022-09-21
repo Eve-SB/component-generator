@@ -1,10 +1,10 @@
 {
-  "name": "scaffolding-tool",
+  "name": "components-generator",
   "version": "1.0.0",
   "description": "A tool for scaffolding components",
-  "main": "./__scaffolder/make-component.js",
+  "main": "./__generator/generate-component.js",
   "scripts": {
-    "make:component": "node ./__scaffolder/make-component.js"
+    "generate": "node ./__generator/generate-component.js"
   },
   "author": "Eve Blakcori",
   "license": "ISC"

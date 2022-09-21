@@ -5,7 +5,7 @@ module.exports = function createStylesFile(path, componentName) {
     fs.writeFileSync(
         `${path}/${componentName}.scss`,
         `// This is a comment to start ${componentName} styles
-.ui-${componentName} {
+.${componentName} {
     // Your styles here
     // Organise your code using BEM conventions
 }
