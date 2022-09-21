@@ -25,6 +25,12 @@ The script will do a couple of things:
 2. Then, it will create a `./src/components` folder if one does not exist.
 3. Lastly, it will take the name of the component you entered in a terminal and generate a directory `./src/components/[[your component's name]]` with all files and folders defined in the `./__generator/` directory's `create` and `generate-component` files.
 
+
+
+https://user-images.githubusercontent.com/20490024/191499178-de321612-2b0d-433d-88c0-96189affcc26.mp4
+
+
+
 When the script is ran, the tool will generate the following structure for each component:
 
 ```
