@@ -14,11 +14,13 @@ I have built this tool to be simple to use and easy to adjust to any project's n
 _**Prerequisites:** The tool uses node.js to generate files, so you should have it initiated in your project. It would also help to know how to use command line/terminal._
 
 To use the component generator tool, you will need to take these steps:
+
 1. Copy `__generator` directory with its contents to the root of your project
 2. Add a script `"generate": "node ./__generator/generate-component.js"` to your package.json file.
 3. And then, run this script in the terminal from the root folder of your project: `npm run generate [[your component's name]]`
 
 The script will do a couple of things:
+
 1. It will create a `./src` folder if one does not exist.
 2. Then, it will create a `./src/components` folder if one does not exist.
 3. Lastly, it will take the name of the component you entered in a terminal and generate a directory `./src/components/[[your component's name]]` with all files and folders defined in the `./__generator/` directory's `create` and `generate-component` files.
